@@ -2,6 +2,8 @@
 
 ![image](https://github.com/alberttheprince/NorthYankton/assets/85725579/a89131a1-89cb-46ce-b46c-45a5d71ab848)
 
+# Intro
+
 A starting point for the enabling of North Yankton for FiveM! This resource reenables North Yankton, and keeps it in a bucket, where players who travel to North Yankton see North Yankton (regularly placed right over Cayo) and all other players will not see North Yankton.
 
 **Huge Note:** North Yankton is **NOT COMPLETE** There are many holes, low-resolution textures, broken models, invisible walls and the chance for players to fall off of North Yankton. This was released with the hope that people with more experience working with maps/IPLs would start working on fixes for the map.
@@ -12,7 +14,7 @@ If you would like to release any map/ipl fixes for this, please contact me on my
 
 Thank you to Re1ease for the standalone teleportation code used in the initial release of North Yankton Enabled (https://github.com/Re1ease/r1-teleport)
 
-#Requirements
+ #Requirements
 
 - Cayo Two Islands with North Yankton Enabled:  https://github.com/alberttheprince/CayoTwoIslands-YanktonCompatible
 
