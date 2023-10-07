@@ -15,9 +15,11 @@ Thank you to Re1ease for the standalone teleportation code used in the initial r
 #Requirements
 
 - Cayo Two Islands with North Yankton Enabled:  https://github.com/alberttheprince/CayoTwoIslands-YanktonCompatible
+
 This is an edit of Cayo Two Islands which replaces the replacement of the NY files that Cayo Two Islands made. Please use this fork if you want to enable Cayo with North Yankton while using this resource.
 
 - Bob74_ipl: https://github.com/Bob74/bob74_ipl
+
 Required for enabling IPLs, like North Yankton.
 
 # This is released without guaranteeing support, help, or assistance. If you have issues, please fix them and make a PR. Issues created will not be addressed. North Yankton is NOT "release ready". It was never intended to be used by players outside of the very controlled prologue missions by Rockstar. 
