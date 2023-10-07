@@ -14,7 +14,7 @@ If you would like to release any map/ipl fixes for this, please contact me on my
 
 Thank you to Re1ease for the standalone teleportation code used in the initial release of North Yankton Enabled (https://github.com/Re1ease/r1-teleport)
 
- #Requirements
+ # Requirements
 
 - Cayo Two Islands with North Yankton Enabled:  https://github.com/alberttheprince/CayoTwoIslands-YanktonCompatible
 
