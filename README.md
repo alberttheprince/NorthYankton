@@ -24,4 +24,4 @@ Required for enabling IPLs, like North Yankton.
 
 # This is released without guaranteeing support, help, or assistance. If you have issues, please fix them and make a PR. Issues created will not be addressed. North Yankton is NOT "release ready". It was never intended to be used by players outside of the very controlled prologue missions by Rockstar. 
 
-If you would like to release any free map/ipl fixes for this, please contact me on my Discord: noornahas (PrinceAlbert) to have them listed here!
+If you would like to release any free map/ipl fixes for this, please get in touch with me on my Discord: noornahas (PrinceAlbert) to have them listed here!
