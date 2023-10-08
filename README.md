@@ -27,7 +27,7 @@ Required for enabling IPLs, like North Yankton.
 If you would like to release any free map/ipl fixes for this, please get in touch with me on my Discord: noornahas (PrinceAlbert) to have them listed here!
 
 
-The files needed to modify the North Yankton include the following:
+The files needed to modify North Yankton include the following:
 
 ```
 prologue01_1.ybn
