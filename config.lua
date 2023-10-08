@@ -46,7 +46,7 @@ PL.Locations = {
     [1] = {
         location = {
             from = vector3(-1045.21, -2750.24, 21.36),     --Teleport from.
-            to = vector3(3193.77, -4810.25, 112.11),      --Teleport to.
+            to = vector3(3154.31, -4840.98, 111.89),      --Teleport to.
            
             showBlip = false,                            --Show blip on from-marker.
             blipText = "North Yankton Departure",              --Blip text on the blip, if showBlip is true.
@@ -58,13 +58,13 @@ PL.Locations = {
  
     [2] = {
         location = {
-            from = vector3(3193.77, -4810.26, 112.11),
+            from = vector3(3154.31, -4840.99, 111.89),
             to = vector3(-1034.73, -2733.54, 20.17),
            
             showBlip = false,
-            blipText = "Book Ticket with Yankton Travel Agency",
+            blipText = "Book Ticket with Caipira Airways",
             
-            text = "Book Ticket with Yankton Travel Agency", 
+            text = "Book Ticket with Caipira Airways", 
             textColor = "White",
         },
     },
