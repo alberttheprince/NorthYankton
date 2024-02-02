@@ -26,6 +26,19 @@ Required for enabling IPLs, like North Yankton.
 
 If you would like to release any free map/ipl fixes for this, please get in touch with me on my Discord: noornahas (PrinceAlbert) to have them listed here!
 
+# Modifications
+
+The following files have been modified:
+
+```
+prologue01k.ymap
+prologue01z.ymap
+```
+
+Thank you to [MissySnowie](https://www.gta5-mods.com/users/MissySnowie) over on GTA5-mods for editing these .ymaps and permitting me to include them!
+
+
+# North Yankton Files
 
 The files needed to modify North Yankton include the following:
 
