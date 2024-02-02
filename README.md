@@ -18,7 +18,7 @@ Thank you to Re1ease for the standalone teleportation code used in the initial r
 
 This is an edit of Cayo Two Islands which replaces the replacement of the NY files that Cayo Two Islands made. Please use this fork if you want to enable Cayo with North Yankton while using this resource.
 
-- ItzCelyrian's updated version of Bob74_ipl: https://github.com/ItzCelyrian/ipl
+- Bob74_ipl: https://github.com/Bob74/bob74_ipl
 
 Required for enabling IPLs, like North Yankton.
 
