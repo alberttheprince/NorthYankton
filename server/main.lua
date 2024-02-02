@@ -1,8 +1,5 @@
-Enabled = false
-
 RegisterNetEvent('NorthYankton:server:playerRequestTeleport', function()
-    Enabled = not Enabled
-    local bucket = Enabled and 1337 or 0
+    local bucket = GetPlayerRoutingBucket(source) == 1337 and 0 or 1337
     SetPlayerRoutingBucket(source, bucket)
     TriggerClientEvent('NorthYankton:client:routingBucketChanged', source, bucket)
 end)
