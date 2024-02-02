@@ -16,7 +16,7 @@ Thank you to Re1ease for the standalone teleportation code used in the initial r
 
 - Cayo Two Islands with North Yankton Enabled:  https://github.com/alberttheprince/CayoTwoIslands-YanktonCompatible
 
-This is an edit of Cayo Two Islands which replaces the replacement of the NY files that Cayo Two Islands made. Please use this fork if you want to enable Cayo with North Yankton while using this resource.
+This is an edit of Cayo Two Islands which replaces the replacement of the NY files that Cayo Two Islands made. Please use this fork if you want to enable Cayo with North Yankton while using this resource. It also includes modified map files to include things like replacement tress, and other map fixes in the future.
 
 - Bob74_ipl: https://github.com/Bob74/bob74_ipl
 
