@@ -1,4 +1,4 @@
-NorthYankton = exports.bob74_ipl:GetNorthYanktonObject()
+NorthYankton = exports.ipl:GetNorthYanktonObject()
 
 RegisterNetEvent('NorthYankton:client:routingBucketChanged', function(bucket)
     local enabled = bucket == 1337
