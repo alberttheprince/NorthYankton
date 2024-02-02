@@ -19,9 +19,9 @@ local inZone = false
 local activateTeleport = false
 local vehCheck = false
 
-Citizen.CreateThread(function()
+CreateThread(function()
     while true do
-        Citizen.Wait(PL.LoopTimer*1000)
+        Wait(PL.LoopTimer*1000)
  
         if createBlips then
             magicBlips()
@@ -59,10 +59,10 @@ Citizen.CreateThread(function()
     end
 end)
 
-Citizen.CreateThread(function()
+CreateThread(function()
     while true do
         if inZone then
-            Citizen.Wait(5)
+            Wait(5)
 
             if PL.DisplayText == "DrawText" then
                 for k, v in pairs(PL.Locations) do
@@ -98,7 +98,7 @@ Citizen.CreateThread(function()
                         DoScreenFadeOut(PL.ScreenFadeOutTimer*1000)
                     
                         while not IsScreenFadedOut() do
-                            Citizen.Wait(0)
+                            Wait(0)
                         end
 
                         for k, v in pairs(PL.Locations) do
@@ -115,19 +115,19 @@ Citizen.CreateThread(function()
                             end
                         end
                         
-                        Citizen.Wait(PL.WaitTimer*1000)
+                        Wait(PL.WaitTimer*1000)
 
                         DoScreenFadeIn(PL.ScreenFadeInTimer*1000)
                         if PL.FreezePlayerOnTeleport then
                             FreezeEntityPosition(PlayerPedId(), false)
                         end
                     else
-                        Citizen.Wait(1000)
+                        Wait(1000)
                     end
                 end
             end
         else
-            Citizen.Wait(PL.WaitTimer*1000)
+            Wait(PL.WaitTimer*1000)
         end
     end
 end)
