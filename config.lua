@@ -45,9 +45,9 @@ PL.Keybind = 38                                 --Key to use to teleport. Curren
 PL.Locations = {
     [1] = {
         location = {
-            from = vector3(-1045.21, -2750.24, 21.36),     -- Location inside of LS Airport Double Doors
-            to = vector3(3149.15, -4840.27, 111.9),      -- Teleport location in front of Caipira Airways
-           
+            from = vector3(-1045.21, -2750.24, 21.36),    -- Location inside of LS Airport Double Doors
+            to = vector3(3149.21, -4839.99, 111.89),      -- Teleport location in front of Caipira Airways
+            
             showBlip = false,                            --Show blip on from-marker.
             blipText = "North Yankton Departure",              --Blip text on the blip, if showBlip is true.
             
@@ -58,7 +58,7 @@ PL.Locations = {
  
     [2] = {
         location = {
-            from = vector3(3149.15, -4840.27, 111.9), -- Teleport location in front of Caipira Airways
+            from = vector3(3149.21, -4839.98, 111.89), -- Teleport location in front of Caipira Airways
             to = vector3(-1034.73, -2733.54, 20.17), -- Location at Taxi pick up area outside of LS Airport
            
             showBlip = false,
