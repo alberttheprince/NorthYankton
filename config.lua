@@ -41,16 +41,12 @@ PL.Keybind = 38                                 --Key to use to teleport. Curren
 -----------------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------------
 --Locations------------------------------------------------------------------------------------------------------------------------------------
-
--- Locations must have different vectors, so change the y value from -4840.98 to -4840.99 to avoid conflicts with the teleportation portion of this
--- I suck at coding, so PR it, fix it, or deal with it
-
-
+ 
 PL.Locations = {
     [1] = {
         location = {
-            from = vector3(-1045.21, -2750.24, 21.36),     --Teleport from.
-            to = vector3(3154.31, -4840.98, 111.89),      --Teleport to.
+            from = vector3(-1045.21, -2750.24, 21.36),     -- Location inside of LS Airport Double Doors
+            to = vector3(3149.15, -4840.27, 111.9),      -- Teleport location in front of Caipira Airways
            
             showBlip = false,                            --Show blip on from-marker.
             blipText = "North Yankton Departure",              --Blip text on the blip, if showBlip is true.
@@ -62,8 +58,8 @@ PL.Locations = {
  
     [2] = {
         location = {
-            from = vector3(3154.31, -4840.99, 111.89),
-            to = vector3(-1034.73, -2733.54, 20.17),
+            from = vector3(3149.15, -4840.27, 111.9), -- Teleport location in front of Caipira Airways
+            to = vector3(-1034.73, -2733.54, 20.17), -- Location at Taxi pick up area outside of LS Airport
            
             showBlip = false,
             blipText = "Book Ticket with Caipira Airways",
