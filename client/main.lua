@@ -19,8 +19,9 @@ RegisterNetEvent('NorthYankton:client:routingBucketChanged', function(enabled)
     SetMinimapInPrologue(enabled)
 
     if enabled then
+	RequestIpl("prologue03_grv_cov") -- Missing "grave" IPL for hole in graveyard
         SetTimecycleModifier('MP_ARENA_THEME_STORM')
-        SetWeatherTypeNowPersist('SNOWLIGHT') -- Use XMAS if you want heavier snow/snow storm effect
+        SetWeatherTypeNowPersist('SNOWLIGHT') -- Use XMAS if you want heavier snow/snowstorm effect
     else
         ClearTimecycleModifier()
         ClearWeatherTypePersist()
