@@ -28,6 +28,7 @@ RegisterNetEvent('NorthYankton:client:routingBucketChanged', function(enabled)
     end
 end)
 
+
 -- Teleport Portion of Resource
 -- Credit to https://github.com/Re1ease/r1-teleport
 
