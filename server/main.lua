@@ -1,5 +1,16 @@
 RegisterNetEvent('NorthYankton:server:playerRequestTeleport', function()
-    local bucket = GetPlayerRoutingBucket(source) == 1337 and 0 or 1337
-    SetPlayerRoutingBucket(source, bucket)
-    TriggerClientEvent('NorthYankton:client:routingBucketChanged', source, bucket)
+    local enabled = GetPlayerRoutingBucket(source) == Config.RoutingBucket
+
+    ToggleNorthYankton(source, not enabled);
 end)
+
+function ToggleNorthYankton(source, enabled)
+    -- Set the player in the North Yankton routing bucket
+    local bucket = Config.RoutingBucket
+    SetPlayerRoutingBucket(source, enabled and bucket or 0)
+
+    -- Enable North Yankton on the client
+    TriggerClientEvent('NorthYankton:client:routingBucketChanged', source, enabled)
+end
+
+exports('ToggleNorthYankton', ToggleNorthYankton)
