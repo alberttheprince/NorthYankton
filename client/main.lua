@@ -30,7 +30,6 @@ end)
 
 
 -- Teleport Portion of Resource
--- Credit to https://github.com/Re1ease/r1-teleport
 
 local inZone = false
 local activateTeleport = false
@@ -74,7 +73,7 @@ CreateThread(function()
                     local distance = #(pedCoords - calcFrom)
                     if distance <= Config.DisplayTextDistance then
                         selectedColor = '~s~'
-                        DrawText3D(Config.Locations[k].location.from.x,Config.Locations[k].location.from.y,Config.Locations[k].location.from.z+0.5, selectedColor .. Config.Locations[k].location.text)
+                        DrawText3D(Config.Locations[k].location.from.x, Config.Locations[k].location.from.y, Config.Locations[k].location.from.z+0.5, selectedColor .. Config.Locations[k].location.text)
                     end
                 end
             
@@ -145,6 +144,6 @@ function DrawText3D(x, y, z, text)
 	SetDrawOrigin(x, y, z, 0)
 	DrawText(0.0, 0.0)
 	local factor = (string.len(text)) / 370
-	DrawRect(0.0, 0.0+0.0125, 0.017+ factor, 0.03, 0, 0, 0, 75)
+	DrawRect(0.0, 0.0 + 0.0125, 0.017 + factor, 0.03, 0, 0, 0, 75)
 	ClearDrawOrigin()
 end
