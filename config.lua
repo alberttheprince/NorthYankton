@@ -7,6 +7,7 @@ Config.UseTeleportDistance = 1        -- Distance (in meters) that players can u
 Config.FreezePlayerOnTeleport = false -- If players should be frozen during teleporting
 Config.TeleportInVehicle = false      -- If players can teleport while being inside a vehicle
 Config.Keybind = 38                   -- Key to use to teleport. ("E") https://docs.fivem.net/docs/game-references/controls/
+Config.RoutingBucket = 1337           -- Rounting Bucket you want to use for North Yankton
 
 
 -- Teleporter locations
