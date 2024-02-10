@@ -501,10 +501,7 @@ CreateThread(function()
     end
 end)
 
--- Entity Set
-
 -- Only one interior entity can be active at any given time, so comment out the pair below that you prefer
-
 
 CreateThread(function()
     Wait(0)
