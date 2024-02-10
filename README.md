@@ -10,7 +10,7 @@ A starting point for the enabling of North Yankton for FiveM! This resource reen
 
  # Requirements
 
-- Bob74_ipl: https://github.com/Bob74/bob74_ipl
+- [Bob74_ipl](https://github.com/Bob74/bob74_ipl)
 
 Required for enabling IPLs, like North Yankton.
 
