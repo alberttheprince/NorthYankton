@@ -10,10 +10,6 @@ A starting point for the enabling of North Yankton for FiveM! This resource reen
 
  # Requirements
 
-- Cayo Two Islands with North Yankton Enabled:  https://github.com/alberttheprince/CayoTwoIslands-YanktonCompatible
-
-This is an edit of Cayo Two Islands which replaces the replacement of the NY files that Cayo Two Islands made. Please use this fork if you want to enable Cayo with North Yankton while using this resource. It also includes modified map files to include things like replacement trees, and other map fixes in the future.
-
 - Bob74_ipl: https://github.com/Bob74/bob74_ipl
 
 Required for enabling IPLs, like North Yankton.
@@ -25,7 +21,7 @@ If you would like to release any free map/ipl fixes for this, please get in touc
 # Credits
 
 - Thank you to [MissySnowie](https://www.gta5-mods.com/users/MissySnowie) over on GTA5-mods for editing these .ymaps and permitting me to include them!
-- Thank you to Stan (https://github.com/tom-osborne) and Manason (https://github.com/Manason/), and the QBox community (https://github.com/Qbox-project) for their assistance in making this a reality. 
+- Thank you to [Stan](https://github.com/tom-osborne) and [Manason](https://github.com/Manason/), and the QBox community (https://github.com/Qbox-project) for their assistance in making this a reality. 
 - Thank you TheIndra, your code was invaluable for improving the general functionality and feel of North Yankton
 - Thank you to Re1ease for the standalone teleportation code, which we simplified for this resource (used under GPL 3.0)
 
