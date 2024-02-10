@@ -20,7 +20,7 @@ This is released without guaranteeing support, help, or assistance. If you have 
 - Thank you to [Stan](https://github.com/tom-osborne) and [Manason](https://github.com/Manason/), and the [QBox community](https://github.com/Qbox-project) for their assistance in making this a reality. 
 - Thank you TheIndra, your code was invaluable for improving the general functionality and feel of North Yankton
 - Thank you to Re1ease for the standalone teleportation code, which we simplified for this resource (used under GPL 3.0)
-- Thank you to [TayMcKenzieNZ](https://github.com/TayMcKenzieNZ/CayoTwoIslands) for most of the Cayo portion of this resource.
+- Thank you to [TayMcKenzieNZ](https://github.com/TayMcKenzieNZ/CayoTwoIslands) for most of the Cayo portion of this resource. (used under GPL 3.0)
 
 If you would like to release any free map/ipl fixes for this, please get in touch with me on my Discord: noornahas (PrinceAlbert) to have them listed here!
 
