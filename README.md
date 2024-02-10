@@ -34,7 +34,7 @@ prologue01z.ymap
 ```
 and
 
-- all files in the Cayo Stream file
+- All files in the Cayo Stream file
 
 # North Yankton specific GTA 5 files
 
