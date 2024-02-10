@@ -10,9 +10,7 @@ A starting point for the enabling of North Yankton for FiveM! This resource reen
 
  # Requirements
 
-- [Bob74_ipl](https://github.com/Bob74/bob74_ipl)
-
-Required for enabling IPLs, like North Yankton.
+- [Bob74_ipl](https://github.com/Bob74/bob74_ipl) Required for enabling IPLs, like North Yankton.
 
 # This is released without guaranteeing support, help, or assistance. If you have issues, please fix them and make a PR. Issues created will not be addressed. North Yankton is NOT "release ready". It was never intended to be used by players outside of the very controlled prologue missions by Rockstar. 
 
