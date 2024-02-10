@@ -220,5 +220,3 @@ prologuerd_lod.ymap
 prologuerdb.ymap
 h4_islandairstrip_12.ybn
 ```
-
-Please note there may be more, this is what I had to restore to the original GTA version to have it work with Cayo Two Islands. Good hunting!
