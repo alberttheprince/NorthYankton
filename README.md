@@ -4,17 +4,15 @@
 
 # Intro
 
-A starting point for the enabling of North Yankton for FiveM! This resource reenables North Yankton and keeps it in a bucket, where players who travel to North Yankton see North Yankton (regularly placed right over Cayo) and all other players will not see North Yankton.
+Cayo Perico and North Yankton, now working together! This resource was originally intended to make North Yankton useable. It now works as an (almost) standalone resource allowing you to have Cayo Perico and North Yankton without any interference from either. Players who travel to North Yankton see only North Yankton (which is usually floating right over Cayo) and people in San Andreas/Cayo Perico won't North Yankton.
 
-**Huge Note:** North Yankton is **NOT COMPLETE** There are many holes, low-resolution textures, broken models, invisible walls, and the chance for players to fall off of North Yankton. This was released with the hope that people with more experience working with maps/IPLs would start working on fixes for the map.
+Note: North Yankton is **NOT COMPLETE** There are many holes, low-resolution textures, broken models, invisible walls, and the chance for players to fall off of North Yankton. This was released with the hope that people with more experience working with maps/IPLs would start working on fixes for the map.
+
+This is released without guaranteeing support, help, or assistance. If you have issues, please fix them and make a PR. Issues created will not be addressed. North Yankton is NOT "release ready". It was never intended to be used by players outside of the very controlled prologue missions by Rockstar. 
 
  # Requirements
 
 - [Bob74_ipl](https://github.com/Bob74/bob74_ipl) Required for enabling IPLs, like North Yankton.
-
-# This is released without guaranteeing support, help, or assistance. If you have issues, please fix them and make a PR. Issues created will not be addressed. North Yankton is NOT "release ready". It was never intended to be used by players outside of the very controlled prologue missions by Rockstar. 
-
-If you would like to release any free map/ipl fixes for this, please get in touch with me on my Discord: noornahas (PrinceAlbert) to have them listed here!
 
 # Credits
 
@@ -22,6 +20,9 @@ If you would like to release any free map/ipl fixes for this, please get in touc
 - Thank you to [Stan](https://github.com/tom-osborne) and [Manason](https://github.com/Manason/), and the [QBox community](https://github.com/Qbox-project) for their assistance in making this a reality. 
 - Thank you TheIndra, your code was invaluable for improving the general functionality and feel of North Yankton
 - Thank you to Re1ease for the standalone teleportation code, which we simplified for this resource (used under GPL 3.0)
+- Thank you to [TayMcKenzieNZ](https://github.com/TayMcKenzieNZ/CayoTwoIslands) for most of the Cayo portion of this resource.
+
+If you would like to release any free map/ipl fixes for this, please get in touch with me on my Discord: noornahas (PrinceAlbert) to have them listed here!
 
 # Modifications
 
@@ -31,8 +32,11 @@ The following files have been modified:
 prologue01k.ymap
 prologue01z.ymap
 ```
+and
 
-# North Yankton Files
+- all files in the Cayo Stream file
+
+# North Yankton specific GTA 5 files
 
 The files needed to modify North Yankton include the following:
 
