@@ -18,16 +18,39 @@ RegisterNetEvent('NorthYankton:client:routingBucketChanged', function(enabled)
     -- Enable the minimap
     SetMinimapInPrologue(enabled)
 
+    -- Add blips
+    ToggleBlips(enabled)
+
     if enabled then
-	RequestIpl("prologue03_grv_cov") -- Missing "grave" IPL for hole in graveyard
+        RequestIpl('prologue03_grv_cov') -- Missing "grave" IPL for hole in graveyard
         SetTimecycleModifier('MP_ARENA_THEME_STORM')
         SetWeatherTypeNowPersist('SNOWLIGHT') -- Use XMAS if you want heavier snow/snowstorm effect
     else
+        RemoveIpl('prologue03_grv_cov')
         ClearTimecycleModifier()
         ClearWeatherTypePersist()
     end
 end)
 
+function ToggleBlips(enabled)
+    if enabled then
+        -- Create all blips
+        for _, blip in ipairs(Config.Blips) do
+            local handle = AddBlipForCoord(blip.position)
+
+            SetBlipSprite(handle, blip.sprite)
+            SetBlipAsShortRange(handle, true)
+
+            -- Add the blip handle to the blip so we can remove it on exit
+            blip.handle = handle
+        end
+    else
+        -- Remove all blips
+        for _, blip in ipairs(Config.Blips) do
+            RemoveBlip(blip.handle)
+        end
+    end
+end
 
 -- Teleport Portion of Resource
 

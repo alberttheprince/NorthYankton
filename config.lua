@@ -9,6 +9,18 @@ Config.TeleportInVehicle = false      -- If players can teleport while being ins
 Config.Keybind = 38                   -- Key to use to teleport. ("E") https://docs.fivem.net/docs/game-references/controls/
 Config.RoutingBucket = 1337           -- Routing Bucket you want to use for North Yankton
 
+-- North Yankton blips
+
+Config.Blips = {
+    {
+        sprite = 135, -- radar_cinema                   -- Blip sprite https://docs.fivem.net/docs/game-references/blips/
+        position = vector3(3159.01, -4808.40, 111.90)   -- Location of the blip
+    },
+    {
+        sprite = 90, -- radar_flight_school
+        position = vector3(3148.55, -4843.99, 112.02)
+    },
+}
 
 -- Teleporter locations
 
