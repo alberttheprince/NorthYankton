@@ -17,6 +17,7 @@ This is released without guaranteeing support, help, or assistance. If you have 
 
 # Credits
 
+- Thank you to [ThePlayaJam765](https://www.gta5-mods.com/misc/north-yankton-previous-generation-hud-mod) over on GTA5-mods for editing the minimap colors in North Yankton allowing me to include it!
 - Thank you to [MissySnowie](https://www.gta5-mods.com/users/MissySnowie) over on GTA5-mods for editing these .ymaps and permitting me to include them!
 - Thank you to [Stan](https://github.com/tom-osborne) and [Manason](https://github.com/Manason/), and the [QBox community](https://github.com/Qbox-project) for their assistance in making this a reality. 
 - Thank you TheIndra, your code was invaluable for improving the general functionality and feel of North Yankton
