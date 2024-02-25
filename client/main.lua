@@ -1,9 +1,10 @@
 NorthYankton = exports.bob74_ipl:GetNorthYanktonObject()
+local isEnabled = false
 
 RegisterNetEvent('NorthYankton:client:routingBucketChanged', function(enabled)
     -- Load the map
     NorthYankton.Enable(enabled)
-
+    isEnabled = enabled
     SetZoneEnabled(GetZoneFromNameId('PrLog'), enabled)
     SetMapdatacullboxEnabled('prologue', enabled)
     SetMapdatacullboxEnabled('Prologue_Main', enabled)
@@ -30,6 +31,10 @@ RegisterNetEvent('NorthYankton:client:routingBucketChanged', function(enabled)
         ClearTimecycleModifier()
         ClearWeatherTypePersist()
     end
+end)
+
+exports("IsEnabled", function()
+	return isEnabled
 end)
 
 function ToggleBlips(enabled)
