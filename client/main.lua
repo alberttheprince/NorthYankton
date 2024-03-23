@@ -57,6 +57,10 @@ function ToggleBlips(enabled)
     end
 end
 
+CreateThread(function()
+    TriggerServerEvent('NorthYankton:server:checkState')
+end)
+
 -- Teleport Portion of Resource
 
 local inZone = false
