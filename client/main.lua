@@ -145,6 +145,7 @@ CreateThread(function()
                                 SetPedCoordsKeepVehicle(ped, calcTo)
                                 activateTeleport = false
                                 inZone = false
+				break	
                             end
                         end
                         
