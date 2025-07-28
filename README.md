@@ -12,6 +12,8 @@ This is released without guaranteeing support, help, or assistance. If you have 
 
 If you would like to release any free map/ipl fixes for this, please get in touch with me on my Discord: noornahas (PrinceAlbert) to have them listed here!
 
+Do you use CayoTwoIslands or want to have Cayo Perico at the same time as North Yankton? We have a compatible resource [HERE](https://github.com/alberttheprince/CayoTwoIslands-YanktonCompatible).
+
  # Requirements
 
 - [Bob74_ipl](https://github.com/Bob74/bob74_ipl) Required for enabling IPLs, like North Yankton.
