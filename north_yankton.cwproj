@@ -6,9 +6,14 @@
     <Item>stream\prologue01z.ymap</Item>
     <Item>stream\prologue05.ymap</Item>
     <Item>stream\prologue05_lod.ymap</Item>
+    <Item>stream\prologue_05_cypress.ymap</Item>
   </YmapFilenames>
   <YtypFilenames />
-  <YbnFilenames />
+  <YbnFilenames>
+    <Item>stream\prologue05_7.ybn</Item>
+    <Item>stream\prologue05_4.ybn</Item>
+    <Item>stream\prologue05_7_cypress.ybn</Item>
+  </YbnFilenames>
   <YndFilenames />
   <YnvFilenames />
   <TrainsFilenames />
