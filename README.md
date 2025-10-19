@@ -23,8 +23,27 @@ Do you use CayoTwoIslands or want to have Cayo Perico at the same time as North 
 The following files have been modified:
 
 ```
+north_yankton_manifest.ymf
 prologue01k.ymap
 prologue01z.ymap
+prologue05_lod.ymap
+prologue_05_cypress.ymap
+prologue_05_cypress_lod.ymap
+prologue05.ymap
+prologue03_1.ybn
+prologue03_2.ybn
+prologue03_3.ybn
+prologue03_4.ybn
+prologue03_5.ybn
+prologue03_6.ybn
+prologue03_7.ybn
+prologue05_1.ybn
+prologue05_2.ybn
+prologue05_3.ybn
+prologue05_4.ybn
+prologue05_6.ybn
+prologue05_7.ybn
+prologue05_7_cypress.ybn
 ```
 
 # North Yankton Related Files
