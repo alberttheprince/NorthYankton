@@ -235,6 +235,8 @@ h4_islandairstrip_12.ybn
 
 # Credits
 
+- Thank you to [cm8263](https://github.com/cm8263) for their contributions to the map, filling some of the space in the city area
+- Thank you to [P-lauski](https://github.com/P-lauski) for collision fixes around the map
 - Thank you to [ThePlayaJam765](https://www.gta5-mods.com/misc/north-yankton-previous-generation-hud-mod) over on GTA5-mods for editing the minimap colors in North Yankton allowing me to include it!
 - Thank you to [MissySnowie](https://www.gta5-mods.com/users/MissySnowie) over on GTA5-mods for editing these .ymaps and permitting me to include them!
 - Thank you to [Stan](https://github.com/tom-osborne) and [Manason](https://github.com/Manason/), and the [QBox community](https://github.com/Qbox-project) for their assistance in making this a reality. 
