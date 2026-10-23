@@ -21,6 +21,48 @@ Config.Blips = {
         sprite = 90, -- radar_flight_school
         position = vector3(3148.55, -4843.99, 112.02)
     },
+    -- Services in the expanded North Yankton map.
+    {
+        name = "Mechanic Shop",
+        sprite = 72,
+        position = vector3(3066.90, -4893.58, 110.33)
+    },
+    {
+        name = "Ludendorff Medical Center",
+        sprite = 61,
+        position = vector3(2984.50, -4633.00, 111.01)
+    },
+    {
+        name = "Police Station",
+        sprite = 60,
+        position = vector3(2981.39, -4611.15, 111.01)
+    },
+    {
+        name = "Barber",
+        sprite = 71,
+        position = vector3(3083.77, -4843.69, 111.19)
+    },
+    {
+        name = "Clothing Store",
+        sprite = 73,
+        position = vector3(2904.25, -4785.56, 111.44)
+    },
+    {
+        name = "Gun Store",
+        sprite = 110,
+        position = vector3(2883.86, -4787.72, 111.07)
+    },
+    {
+        name = "Bank",
+        sprite = 108,
+        position = vector3(3064.02, -4842.04, 110.35)
+    },
+    {
+        name = "Gas Station",
+        sprite = 361,
+        position = vector3(3385.32, -4883.53, 110.76)
+    },
+
 }
 
 -- Teleporter locations

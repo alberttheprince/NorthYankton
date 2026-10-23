@@ -38,21 +38,22 @@ exports("IsEnabled", function()
 end)
 
 function ToggleBlips(enabled)
-    if enabled then
-        -- Create all blips
-        for _, blip in ipairs(Config.Blips) do
-            local handle = AddBlipForCoord(blip.position)
-
-            SetBlipSprite(handle, blip.sprite)
-            SetBlipAsShortRange(handle, true)
-
-            -- Add the blip handle to the blip so we can remove it on exit
-            blip.handle = handle
-        end
-    else
-        -- Remove all blips
-        for _, blip in ipairs(Config.Blips) do
+    for _, blip in ipairs(Config.Blips) do
+        if enabled then
+            if not blip.handle or not DoesBlipExist(blip.handle) then
+                local handle = AddBlipForCoord(blip.position)
+                SetBlipSprite(handle, blip.sprite)
+                SetBlipAsShortRange(handle, true)
+                if blip.name then
+                    BeginTextCommandSetBlipName('STRING')
+                    AddTextComponentString(blip.name)
+                    EndTextCommandSetBlipName(handle)
+                end
+                blip.handle = handle
+            end
+        elseif blip.handle then
             RemoveBlip(blip.handle)
+            blip.handle = nil
         end
     end
 end
